@@ -1,0 +1,36 @@
+body
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-image: url("images/ds2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.socialContainer
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	bottom: 10%;
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+	flex-wrap: nowrap;
+}
+
+.social
+{
+	font-size: 20px;
+	color: white;
+	background-color: #0e76a8;
+	padding: 10px 15px 10px 15px;
+	transition: transform .2s;
+	width: 80px;
+	margin: auto;
+	display:block;
+	text-decoration: none;
+}
+
+.social:hover
+{
+	cursor: pointer;
+	transform: scale(1.5);
+}
